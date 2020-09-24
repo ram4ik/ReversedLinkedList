@@ -11,6 +11,16 @@ class LinkedList {
     
     var head: Node?
     
+    func find(key: Int) -> Node? {
+        var curr = head
+        
+        while curr != nil && curr!.data != key {
+            curr = curr!.next
+        }
+        
+        return curr
+    }
+    
     func insert(data: Int) {
         
         let newNode = Node(data: data)
