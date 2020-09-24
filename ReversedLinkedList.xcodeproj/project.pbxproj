@@ -11,6 +11,8 @@
 		9520EAEB251CB88600420BD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EAEA251CB88600420BD0 /* ContentView.swift */; };
 		9520EAED251CB88700420BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520EAEC251CB88700420BD0 /* Assets.xcassets */; };
 		9520EAF0251CB88700420BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520EAEF251CB88700420BD0 /* Preview Assets.xcassets */; };
+		9520EAF9251CBEAF00420BD0 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EAF8251CBEAF00420BD0 /* Node.swift */; };
+		9520EAFC251CBEF300420BD0 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EAFB251CBEF300420BD0 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9520EAEC251CB88700420BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9520EAEF251CB88700420BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9520EAF1251CB88700420BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9520EAF8251CBEAF00420BD0 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		9520EAFB251CBEF300420BD0 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				9520EAEC251CB88700420BD0 /* Assets.xcassets */,
 				9520EAF1251CB88700420BD0 /* Info.plist */,
 				9520EAEE251CB88700420BD0 /* Preview Content */,
+				9520EAF8251CBEAF00420BD0 /* Node.swift */,
+				9520EAFB251CBEF300420BD0 /* LinkedList.swift */,
 			);
 			path = ReversedLinkedList;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9520EAF9251CBEAF00420BD0 /* Node.swift in Sources */,
 				9520EAEB251CB88600420BD0 /* ContentView.swift in Sources */,
+				9520EAFC251CBEF300420BD0 /* LinkedList.swift in Sources */,
 				9520EAE9251CB88600420BD0 /* ReversedLinkedListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
