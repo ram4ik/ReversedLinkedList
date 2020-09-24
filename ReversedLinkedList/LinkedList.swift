@@ -36,6 +36,8 @@ class LinkedList {
         
         if prev == nil && curr != nil {
             head = curr!.next
+        } else if curr == nil {
+            return nil
         } else {
             prev!.next = curr!.next
         }
