@@ -21,6 +21,28 @@ class LinkedList {
         return curr
     }
     
+    func delete(key: Int) -> Node? {
+        if head == nil {
+            return head
+        }
+        
+        var curr = head
+        var prev: Node?
+        
+        while curr != nil && curr!.data != key {
+            prev = curr
+            curr = curr!.next
+        }
+        
+        if prev == nil {
+            head = curr!.next
+        } else {
+            prev!.next = curr!.next
+        }
+        
+        return curr
+    }
+    
     func insert(data: Int) {
         
         let newNode = Node(data: data)
